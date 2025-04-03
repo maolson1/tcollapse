@@ -35,7 +35,7 @@ def collapse_groups(file_path, collapse_patterns, remove_patterns, uncollapse_gr
         print(f"Error: {e}")
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
+    if len(sys.argv) < 2:
         print("Usage: python tcollapse.py <file_path> [-c <collapse_regex>]... [-r <remove_regex>]... [-u <uncollapse_group>]...")
         sys.exit(1)
 

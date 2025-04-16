@@ -4,7 +4,7 @@ import sys
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python tcollapse.py <file_path> [-c <collapse_regex>]... [-r <remove_regex>]... [-u <uncollapse_group>]...")
+        print("Usage: tcollapse <file_path> [-c <collapse_regex>]... [-r <remove_regex>]... [-u <uncollapse_group>]...")
         sys.exit(1)
 
     remove_patterns = []
